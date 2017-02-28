@@ -1,0 +1,33 @@
+# A functional breakfast
+
+'''
+Purpose: Make code more readable, reuse multiple times, write shorter code
+'''
+
+def mix_and_cook():
+    print('Mix the Ingredients')
+    print('Pour the mixuture into a frying pan')
+    print('Cook the first side ')
+    print('Flip!')
+    print('Cook the other side')
+    print()
+
+def make_pancake():
+    mix_and_cook()
+    pancake = 'A Delicious Pancake'
+
+def make_omelette(ingredient):
+    mix_and_cook()
+    omelette = 'A {} Omelette' .format(ingredient)
+    return omelette
+
+def fancy_omelette(*ingredients):
+    mix_and_cook()
+    omelette = 'A Fancy Omelette with {} ingredients'.format(len(ingredients))
+    return omelette
+
+# Make some regular omelettes 
+print(make_omelette(input('Choose Your Ingredient: ')))
+print(make_omelette('Bacon'))
+
+print(fancy_omelette('sausage','onion','pepper','spinach','mushroom','tomato'))
