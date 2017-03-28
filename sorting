@@ -1,0 +1,32 @@
+class Music():
+    def __init_(self):
+        self.genre = ''
+        self.artist = ''
+        self.release_date = ''
+        self.videos = ''
+        self.time = ''
+
+artist_a = Music()
+
+artist_a.artist = input('Name of Artist being sorted')
+artist_a.genre = input('What Genre is this band?')
+artist_a.videos = input('Do you have any videos, if so list how many:')
+artist_a.time = input('Whats the longest song by this artist?')
+artist_a.release_date = input('The latest or earliest release?')
+
+artist_b = Music()
+
+artist_b.artist = input('Name of Artist being sorted')
+artist_b.genre = input('What Genre is this band?')
+artist_b.videos = input('Do you have any videos, if so list how many:')
+artist_b.time = input('Whats the longest song by this artist?')
+artist_b.release_date = input('The latest or earliest release?')
+
+artist_b = artist_c
+
+artist_c.artist = input('Name of Artist being sorted')
+artist_c.genre = input('What Genre is this band?')
+artist_c.videos = input('Do you have any videos, if so list how many:')
+artist_c.time = input('Whats the longest song by this artist?')
+artist_c.release_date = input('The latest or earliest release?')
+        
